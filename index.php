@@ -56,6 +56,20 @@ foreach ($partite as $partita) {
         <input type="text" id="age" name="age">
 
         <input type="submit" value="Submit">
+
     </form>
 </body>
 </html>
+<?php
+$paragrafo = "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, cum doloribus! Reiciendis quaerat,
+              id rem iure laboriosam quia cumque magnam adipisci? Facere laboriosam nisi officiis sit consequuntur alias fugiat sed 
+              impedit quae corporis? Suscipit maxime repudiandae repellendus, quisquam fugiat quos.</p>";
+
+
+$paragrafi = explode(",", $paragrafo);
+
+
+foreach ($paragrafi as $p) {
+    echo "<p>$p</p>";
+}
+?>
