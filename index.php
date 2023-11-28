@@ -36,3 +36,26 @@ foreach ($partite as $partita) {
     echo "$squadraCasa - $squadraOspite | $puntiCasa-$puntiOspite ";
 }
 ?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<form action="verifiche.php" method="GET">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+
+        <label for="mail">Email:</label>
+        <input type="email" id="mail" name="mail">
+
+        <label for="age">Age:</label>
+        <input type="text" id="age" name="age">
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
